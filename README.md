@@ -40,19 +40,6 @@ go mod tidy
 go run main.go
 ```
 
-## API Endpoints
-
-### Search Products
-```http
-POST /search
-Content-Type: application/json
-
-{
-  "query": "laptop for coding",
-  "limit": 10
-}
-```
-
 ### Get Recommendations
 ```http
 GET /recommendations?product=iPhone%2015%20Pro&limit=5
